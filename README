@@ -1,0 +1,21 @@
+Auto grade:
+=================
+
+Script to automatically check Studentweb and report any new grades.
+Made to work with NTNU but might work for other institutions as well.
+
+Requirements:
+ - Python >= 2.?? (tested on 2.4.3)
+ - mechanize
+ - BeautifulSoup
+ - SMTP-server for email notification
+ - Tele2SMS for SMS notification
+
+Usage:
+ - make a settings.py
+ - run check.py
+ - add to crontab at wanted intervals
+
+Tips:
+ - Run with notification setting STDOUT first run
+ 
