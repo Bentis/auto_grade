@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+
+# Fill in this with your own credentials
+BIRTH_NUMBER = '01017099999'
+PIN_NUMBER = '0000'
+
+# Notification methods
+STDOUT = 0
+EMAIL = 1       # Requires EMAIL_*
+SMS = 2         # Requires SMS_*
+
+# Choose one
+NOTIFY_METHOD = STDOUT
+
+# Needed for EMAIL
+EMAIL_SENDER = 'a@b.c'
+EMAIL_ADDRESS = 'd@e.f' #reciever
+
+# Needed for SMS
+SMS_TELE2_EUROBATE_ID = 'XX'
+SMS_TELE2_NUMBER = '12345678'
+SMS_RECIEVER = '12345678'
